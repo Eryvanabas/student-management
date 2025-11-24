@@ -1,0 +1,13 @@
+.section1{ background-size: cover; /* make it cover the whole screen */
+            background-repeat: no-repeat; /* prevent repeating */
+            background-position: center; /* center the image */
+            margin: 0; /* remove default margin */
+            height: 100vh; /* full height of viewport */ 
+            width: 100%;
+}
+.image{
+    padding-top: 70px;
+}
+.img_text{
+
+}
