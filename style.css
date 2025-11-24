@@ -2,12 +2,22 @@
             background-repeat: no-repeat; /* prevent repeating */
             background-position: center; /* center the image */
             margin: 0; /* remove default margin */
-            height: 100vh; /* full height of viewport */ 
+             height: auto; /* full height of viewport */ 
             width: 100%;
 }
-.image{
-    padding-top: 70px;
+.image {
+  position: relative;
+  width: 100%;
+  display: inline-block;
 }
-.img_text{
 
+.img_text {
+  position: absolute;
+  top: 50%;           /* center vertically */
+  left: 50%;          /* center horizontally */
+  transform: translate(-50%, -50%);
+  color: white;       /* text color */
+  font-size: 40px;    /* make text bigger */
+  font-weight: bold;
 }
+
