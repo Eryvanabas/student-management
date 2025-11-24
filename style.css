@@ -1,8 +1,9 @@
 .section1{ background-size: cover; /* make it cover the whole screen */
+    
             background-repeat: no-repeat; /* prevent repeating */
             background-position: center; /* center the image */
             margin: 0; /* remove default margin */
-             height: auto; /* full height of viewport */ 
+             height: 50%; /* full height of viewport */ 
             width: 100%;
 }
 .image {
@@ -13,11 +14,27 @@
 
 .img_text {
   position: absolute;
-  top: 50%;           /* center vertically */
+  top: 10%;           /* center vertically */
   left: 50%;          /* center horizontally */
   transform: translate(-50%, -50%);
+  background-color: rgb(25, 87, 34);
   color: white;       /* text color */
   font-size: 40px;    /* make text bigger */
-  font-weight: bold;
+ 
 }
+.text {
+  position: absolute;
+  top: 30%;           /* center vertically */
+  left: 50%;          /* center horizontally */
+  transform: translate(-50%, -50%);
+  background-color: rgb(37, 37, 122);
+  color: white;       /* text color */
+  font-size: 20px;    /* make text bigger */
+   background-color: rgba(255, 255, 255, 0.5); /* semi-transparent white */
+  color: #000; /* text color */
+  border-radius: 10px; /* optional: rounded corners */
+  display: inline-block; /* so background wraps only the text */
+
+}
+
 

@@ -42,7 +42,12 @@
 </nav>
     <div class="image" >
       <label class="img_text"> We teach Student with care</label>
-        <img  class="section1" src="6.jpg" alt="My Image">
+        <img  class="section1" src="a.jpg" alt="My Image">
+        <p class="text"> Welcome to [E-school]!
+Our management platform helps you stay organized and informed.
+ From class schedules to student records, everything you need is just a click away
+ . Let’s make learning and administration easier together!e</p>
     </div>
+  
 </body>
 </html>
