@@ -40,8 +40,8 @@
     </div>
   </div>
 </nav>
-    <div>
-      <label> We teach Student with care</label>
+    <div class="image" >
+      <label class="img_text"> We teach Student with care</label>
         <img  class="section1" src="6.jpg" alt="My Image">
     </div>
 </body>
