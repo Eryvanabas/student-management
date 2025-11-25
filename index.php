@@ -48,6 +48,9 @@ Our management platform helps you stay organized and informed.
  From class schedules to student records, everything you need is just a click away
  . Let’s make learning and administration easier together!e</p>
     </div>
+    <section class="text-center">
+      <h1>Our Teachers</h1>
+    </section>
   
 </body>
 </html>
