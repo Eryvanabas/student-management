@@ -42,15 +42,39 @@
 </nav>
     <div class="image" >
       <label class="img_text"> We teach Student with care</label>
-        <img  class="section1" src="a.jpg" alt="My Image">
+      <div class="section1"></div>
+        
         <p class="text"> Welcome to [E-school]!
 Our management platform helps you stay organized and informed.
  From class schedules to student records, everything you need is just a click away
  . Let’s make learning and administration easier together!e</p>
     </div>
     <section class="text-center">
-      <h1>Our Teachers</h1>
+      <h1>Our clasess</h1>
     </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+ <img  class="class" src="c1.jpg" alt="My Image">
+ <p>This advanced class is for students who want to master the subject. 
+  It focuses on challenging exercises, projects, and practical applications.
+   The environment is calm and organized, allowing students 
+   to concentrate and explore their creativity while the teacher guides them through complex topics</p>
+        </div>
+        <div class="col-md-4">
+ <img  class="class" src="c2.jpg" alt="My Image">
+ <p>This class is for intermediate learners who want to improve their skills. 
+  It includes group activities, discussions, and interactive lessons that encourage students to participate actively.
+   The room is equipped with modern tools like whiteboards, projectors, and educational charts to make learning easier</p>
+        </div>
+        <div class="col-md-4">
+ <img  class="class" src="c3.jpg" alt="My Image">
+ <p>This class is designed for beginners who are just starting to learn.
+   It focuses on basic concepts and simple exercises to help students understand the fundamentals. 
+   The classroom is bright and welcoming, with comfortable desks and learning materials ready for everyone</p>
+        </div>
+      </div>
+    </div>
   
 </body>
 </html>
