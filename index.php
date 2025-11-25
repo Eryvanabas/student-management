@@ -58,8 +58,7 @@ Our management platform helps you stay organized and informed.
  <img  class="class" src="c1.jpg" alt="My Image">
  <p>This advanced class is for students who want to master the subject. 
   It focuses on challenging exercises, projects, and practical applications.
-   The environment is calm and organized, allowing students 
-   to concentrate and explore their creativity while the teacher guides them through complex topics</p>
+   The environment is calm and organized, allowing students to concentrate and explore their creativity while the teacher guides them through complex topics</p>
         </div>
         <div class="col-md-4">
  <img  class="class" src="c2.jpg" alt="My Image">
