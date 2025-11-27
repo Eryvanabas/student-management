@@ -74,6 +74,25 @@ Our management platform helps you stay organized and informed.
         </div>
       </div>
     </div>
+        <section class="text-center">
+      <h1>Our Courses</h1>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+ <img  class="class" src="english.jpg" alt="My Image">
+ <h1 class="text-center">English</h1>
+        </div>
+        <div class="col-md-4">
+ <img  class="class" src="math.jpg" alt="My Image">
+<h1 class="text-center">Math</h1>
+        </div>
+        <div class="col-md-4">
+ <img  class="class" src="science.jpg" alt="My Image">
+<h1 class="text-center">science</h1>
+        </div>
+      </div>
+    </div>
   
 </body>
 </html>
