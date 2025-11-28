@@ -29,9 +29,9 @@
         <li class="nav-item">
           <a class="nav-link nav-link text-white" href="#">Admission</a>
         </li>
-    <button class="btn btn-outline-success" class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span> Log in</span>
-    </button>
+   <a href="login.php" class="btn btn-outline-success" type="button">Log in</a>
+
+      
       </ul>
       
       <span class="navbar-text badge text-bg-success">
