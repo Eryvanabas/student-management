@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql="select * from tblschool where  username='".$name."'AND password='".$password."'" ;
     $res=mysqli_query($conn,$sql);
      $row=mysqli_fetch_array($res);
+     if($row[])
 
 }
 

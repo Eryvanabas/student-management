@@ -32,8 +32,8 @@ include 'conect.php';?>
         <div class="mb-3">
             <label class="form-label">User Type</label>
             <select name="usertype" class="form-select">
-                <option>User</option>
-                <option>Name</option>
+                <option>student</option>
+                <option>admin</option>
             </select>
         </div>
 <div class="mb-3">
