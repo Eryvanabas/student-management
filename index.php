@@ -30,7 +30,7 @@
           <a class="nav-link nav-link text-white" href="#">Admission</a>
         </li>
    <a href="login.php" class="btn btn-outline-success" type="button">Log in</a>
-
+<a href="add.php" class="btn btn-outline-success" type="button">Add</a>
       
       </ul>
       

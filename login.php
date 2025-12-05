@@ -10,20 +10,20 @@
 </head>
 <body>
     
-     <section class="bg-section">
+     <section class="">
       <h1 class="fw-medium text-center">log in form</h1>
-   
-    
-    <form class="container my-10">
+  
+    <form action="conect.php" method="POST">
   <div class="mb-3">
     <label class="form-label">User name</label>
-    <input type="text" name="text" >
+    <input type="text" name="username" class="form-control">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" name="password"  id="exampleInputPassword1">
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <button type="submit"  name="submit"class="btn btn-primary">Submit</button>
+
+  <button type="submit" name="submit" class="btn btn-success">Submit</button>
 </form>
  </section>
 </body>

@@ -47,12 +47,21 @@
    padding-top: 70px;
 }
 .bg-section {
+ 
     background-image: url('school.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 50px 0;
 }
+.transparent-form {
+    background-color: transparent; /* makes background see-through */
+}
 
-
-
+ .form-control {
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.4);
+  }
+  .form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 128, 0, 0.6);
+    border-color: #047857;
+  }
