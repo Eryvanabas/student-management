@@ -55,9 +55,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = $_POST["phone"];
     $email = $_POST["email"];
     $usertype = $_POST["usertype"];
+    $password = $_POST["password"];  
 
-    $sql = "INSERT INTO tblschool (username, phone, email, usertype)
-            VALUES ('$name', '$phone', '$email', '$usertype')";
+    $sql = "INSERT INTO tblschool (username, phone, email, usertype,password)
+            VALUES ('$name', '$phone', '$email', '$usertype' ,'$password')";
 
     if (mysqli_query($conn, $sql)) {
         echo "New record added!";

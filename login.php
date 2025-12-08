@@ -23,7 +23,7 @@
     <input type="password" name="password" class="form-control" id="exampleInputPassword1">
   </div>
 
-  <button type="submit" name="submit" class="btn btn-success">Submit</button>
+  <button type="submit" name="submit" class="btn btn-success">Login</button>
 </form>
  </section>
 </body>

@@ -20,7 +20,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql="select * from tblschool where  username='".$name."'AND password='".$password."'" ;
     $res=mysqli_query($conn,$sql);
      $row=mysqli_fetch_array($res);
-     if($row[])
+     if($row["usertype"]=="student")
+     {
+        header("location:studenthome.php");
+     }
+     else if($row["usertype"]=="admin")
+     {
+        header("location:adminhome.php");
+     }
+else{
+    echo"username or password do not match";
+}
 
 }
 
