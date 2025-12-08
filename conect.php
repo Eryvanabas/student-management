@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 
 $servername = "localhost";   // Usually localhost
 $username = "root";          // Your DB username
@@ -29,7 +30,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("location:adminhome.php");
      }
 else{
-    echo"username or password do not match";
+   session_start();
+    $mes="username or password do not match";
+    $_SESSION['loginmessage']=$mes;
+    header("location:login.php");
 }
 
 }

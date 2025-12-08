@@ -12,6 +12,12 @@
     
      <section class="">
       <h1 class="fw-medium text-center">log in form</h1>
+      <div class="alert alert-danger" role="alert">
+  <?php
+  session_start();
+  echo $_SESSION['loginmessage'];
+   ?>
+</div>
   
     <form action="conect.php" method="POST">
   <div class="mb-3">
