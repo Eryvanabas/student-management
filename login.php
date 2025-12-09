@@ -1,3 +1,5 @@
+
+<?php   include 'session.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,8 +16,13 @@
       <h1 class="fw-medium text-center">log in form</h1>
       <div class="alert alert-danger" role="alert">
   <?php
-  session_start();
-  echo $_SESSION['loginmessage'];
+ 
+
+if (isset($_SESSION['loginmessage'])) {
+    echo $_SESSION['loginmessage'];
+}
+
+
    ?>
 </div>
   
