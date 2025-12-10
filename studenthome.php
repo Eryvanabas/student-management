@@ -1,3 +1,14 @@
+<?php
+ include 'session.php';
+ if(isset(!$_SESSION['username']))
+ {
+    header("location: login.php");
+ }
+  elseif($_SESSION['usertype'] =="admin")
+ {
+     header("location: login.php");
+ }
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

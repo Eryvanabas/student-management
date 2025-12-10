@@ -39,12 +39,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($row["usertype"] == "student") {
          $_SESSION['username'] =$name;
+          $_SESSION['usertype'] ="student";
             header("Location: studenthome.php");
             exit;
         }
 
         if ($row["usertype"] == "admin") {
           $_SESSION['username'] =$name;
+          $_SESSION['usertype'] ="admin";
             header("Location: adminhome.php");
             exit;
         }
