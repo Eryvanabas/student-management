@@ -1,5 +1,6 @@
 
-<?php   include 'session.php';?>
+<?php   include 'session.php';
+include 'conection.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +17,7 @@
       <h1 class="fw-medium text-center">log in form</h1>
       <div class="alert alert-danger" role="alert">
   <?php
- 
+ //code for display message
 
 if (isset($_SESSION['loginmessage'])) {
     echo $_SESSION['loginmessage'];
@@ -26,7 +27,7 @@ if (isset($_SESSION['loginmessage'])) {
    ?>
 </div>
   
-    <form action="conect.php" method="POST">
+    <form action="logincheck.php" method="POST">
   <div class="mb-3">
     <label class="form-label">User name</label>
     <input type="text" name="username" class="form-control">
