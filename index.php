@@ -97,25 +97,26 @@ Our management platform helps you stay organized and informed.
       <h1>Admission Form</h1>
     </section>
     
-    <form class="container my-5">
+    <form class="container my-5" method="POST">
      
   <div class="mb-3">
     <label  class="form-label">Name</label>
-    <input type="text" class="form-control" aria-describedby="emailHelp"></div>
+    <input type="text" class="form-control" aria-describedby="emailHelp" name="name"></div>
     <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div id="emailHelp" class="form-text"name="email">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Phone</label>
+    <input type="number" class="form-control" name="phone">
   </div>
   <div class="form-floating">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="message"></textarea>
   <label for="floatingTextarea2">Comments</label>
 </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+<div class="mb-3 my-4">
+  <button type="submit" class="btn btn-primary" name="apply">apply</button></div>
 </form>
   
 </body>

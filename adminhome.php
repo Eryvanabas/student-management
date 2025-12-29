@@ -27,11 +27,11 @@ if (!isset($_SESSION['usertype']) || $_SESSION['usertype'] !== "admin") {
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link nav-link text-white hover-link"  href="#">Admin Dashboard</a>
+          <a class="nav-link nav-link text-success hover-link"  href="#">Admin Dashboard</a>
         </li>
       </ul>
       <span class="">
-        <a href="add.php" class="btn btn-outline-success" type="button">Logout</a>                                       
+        <a href="logout.php" class="btn btn-outline-success" type="button">Logout</a>                                       
       </span>
     </div>
   </div></nav>
@@ -40,15 +40,24 @@ if (!isset($_SESSION['usertype']) || $_SESSION['usertype'] !== "admin") {
     
     <!-- Sidebar -->
     <div class="col-md-2 bg-light vh-100">
-      <ul class="nav flex-column p-3">
-        <li class="nav-item"><a class="nav-link" href="#">Admission</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Add Student</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">View Student </a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Add Classes</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">View Classes </a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Add Course</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">View Course </a></li>
+      <ul class="nav flex-column p-4">
+        <li class="nav-item "><a class="nav-link text-success" href="#">Admission</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#">Add Student</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#">View Student </a></li>
+            <li class="nav-item"><a class="nav-link text-success" href="#">Add Classes</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#">View Classes </a></li>
+            <li class="nav-item"><a class="nav-link text-success" href="#">Add Course</a></li>
+        <li class="nav-item"><a class="nav-link text-success" href="#">View Course </a></li>
       </ul>
     </div>
+    <div class="col-md-10 p-4">
+  <h3 class="text-success mb-3">Sidebar Accordion</h3>
+
+  <p class="text-muted">
+    In this example, we have added an accordion and a dropdown menu inside the side navigation.
+    Click on both to understand how they differ from each other.
+    The accordion will push down the content, while the dropdown lays over the content.
+  </p>
+</div>
 </body>
 </html>
